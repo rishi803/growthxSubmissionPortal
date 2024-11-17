@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base API configuration
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://growthxsubmissionportal-backend.onrender.com/api',
 });
 
 // Add Authorization header if token exists
